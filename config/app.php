@@ -175,6 +175,9 @@ return [
         \App\Ship\Providers\EventServiceProvider::class,
         \App\Ship\Providers\RouteServiceProvider::class,
 
+        \App\Containers\AppSection\Customer\Providers\CustomerProvider::class,
+        \App\Containers\AppSection\Group\Providers\GroupProvider::class,
+
     ],
 
     /*
